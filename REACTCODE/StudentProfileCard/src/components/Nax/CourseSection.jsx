@@ -1,4 +1,7 @@
-function CourseSection({ college, course }) {
+
+import React from 'react'
+
+const CourseSection = ({ college, course }) => {
   return (
     <div  className=" mt-1">
 
@@ -14,7 +17,7 @@ function CourseSection({ college, course }) {
       </div>
 
     </div>
-  );
+  )
 }
 
-export default CourseSection;
+export default CourseSection

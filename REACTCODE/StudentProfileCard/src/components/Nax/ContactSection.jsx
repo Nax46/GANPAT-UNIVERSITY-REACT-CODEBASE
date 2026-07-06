@@ -1,4 +1,8 @@
-function ContactSection({ mobile, bloodGroup }) {
+
+
+import React from 'react'
+
+const ContactSection = ({ mobile, bloodGroup }) => {
   return (
     <div className="mb-5 text-[15px]  mt-1">
 
@@ -27,7 +31,7 @@ function ContactSection({ mobile, bloodGroup }) {
       </div>
 
     </div>
-  );
+  )
 }
 
-export default ContactSection;
+export default ContactSection

@@ -1,4 +1,6 @@
-function AddressSection({ address }) {
+import React from 'react'
+
+const AddressSection = ({address}) => {
   return (
     <div className="mt-4">
       <h3 className="text-sm font-semibold text-gray-700 border-b pb-1">
@@ -9,7 +11,7 @@ function AddressSection({ address }) {
         {address}
       </p>
     </div>
-  );
+  )
 }
 
-export default AddressSection;
+export default AddressSection

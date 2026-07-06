@@ -1,4 +1,6 @@
-function BarcodeSection({ enrollmentNo }) {
+import React from 'react'
+
+const BarcodeSection = ({ enrollmentNo }) => {
   return (
     <div className="">
 
@@ -30,7 +32,7 @@ function BarcodeSection({ enrollmentNo }) {
       </p>
 
     </div>
-  );
+  )
 }
 
-export default BarcodeSection;
+export default BarcodeSection

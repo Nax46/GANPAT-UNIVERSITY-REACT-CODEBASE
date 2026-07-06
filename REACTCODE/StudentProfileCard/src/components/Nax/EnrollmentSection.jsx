@@ -1,4 +1,8 @@
-function EnrollmentSection({ enrollmentNo, tempEnrollment }) {
+
+
+import React from 'react'
+
+const EnrollmentSection = ({ enrollmentNo, tempEnrollment }) => {
   return (
     <div className="text-center mb-5">
 
@@ -11,7 +15,7 @@ function EnrollmentSection({ enrollmentNo, tempEnrollment }) {
       </p>
 
     </div>
-  );
+  )
 }
 
-export default EnrollmentSection;
+export default EnrollmentSection

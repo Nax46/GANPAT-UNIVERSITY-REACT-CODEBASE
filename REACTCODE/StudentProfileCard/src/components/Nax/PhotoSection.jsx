@@ -1,4 +1,7 @@
-function PhotoSection({ image }) {
+
+import React from 'react'
+
+const PhotoSection = ({ image }) => {
   return (
     <div className="flex justify-center mb-4">
       <div className="border-[3px] border-red-600 rounded-2xl p-1">
@@ -9,7 +12,7 @@ function PhotoSection({ image }) {
         />
       </div>
     </div>
-  );
+  )
 }
 
-export default PhotoSection;
+export default PhotoSection

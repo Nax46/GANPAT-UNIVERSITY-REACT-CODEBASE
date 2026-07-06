@@ -1,3 +1,5 @@
+
+import React from 'react'
 import UniversityHeader from "./UniversityHeader";
 import PhotoSection from "./PhotoSection";
 import NameSection from "./NameSection";
@@ -6,7 +8,8 @@ import CourseSection from "./CourseSection";
 import ContactSection from "./ContactSection";
 import BarcodeSection from "./BarcodeSection";
 
-function IdentityCard(props) {
+
+const IdentityCard = (props) => {
   return (
     <div className="flex justify-center items-center min-h-screen bg-slate-200 p-6">
 
@@ -72,7 +75,7 @@ function IdentityCard(props) {
       </div>
 
     </div>
-  );
+  )
 }
 
-export default IdentityCard;
+export default IdentityCard

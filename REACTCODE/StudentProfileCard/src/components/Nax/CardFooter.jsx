@@ -1,4 +1,7 @@
-function CardFooter({ validTill }) {
+
+import React from 'react'
+
+const CardFooter = ({ validTill }) => {
   return (
     <div className="mt-5 pt-3 border-t border-gray-300">
       <div className="flex justify-between items-center">
@@ -23,7 +26,7 @@ function CardFooter({ validTill }) {
 
       </div>
     </div>
-  );
+  )
 }
 
-export default CardFooter;
+export default CardFooter
